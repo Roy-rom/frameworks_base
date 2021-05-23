@@ -627,7 +627,7 @@ public class ExpandableNotificationRow extends ActivatableNotificationView
                         getBackgroundColorWithoutTint());
             }
         }
-        expandedIcon.setStaticDrawableColor(color);
+        expandedIcon.setStaticDrawableColorNotif(color);
     }
 
     public void setAboveShelfChangedListener(AboveShelfChangedListener aboveShelfChangedListener) {
